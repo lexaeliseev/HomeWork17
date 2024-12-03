@@ -11,6 +11,6 @@ from resourses import URL
 @allure.story("Удаление пользователя")
 @allure.title("Успешное удаление пользователя")
 def test_delete_user():
-    with allure.step('Обновление существующего пользователя и проверка на статус код'):
+    with allure.step('Удаление существующего пользователя и проверка на статус код'):
         response = requests.delete(URL + '/users/4')
         assert response.status_code == 204
