@@ -2,3 +2,5 @@ pytest~=8.3.3
 urllib3==1.26.6
 allure-pytest>=2.13.5
 requests==2.32.3
+allure
+jsonschema
